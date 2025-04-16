@@ -1,7 +1,8 @@
 <script lang="ts" setup>
-import { ref } from '@gnome-vue/core'
 
+import { ref } from '@gnome-vue/core'
 const counter = ref(0)
+
 </script>
 
 <template>

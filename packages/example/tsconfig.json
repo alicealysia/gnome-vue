@@ -8,14 +8,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
-    "lib": ["esnext"],
+    "lib": ["esnext", "dom"],
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "baseUrl": "./src",
     "outDir": "./dist",
-    "paths": {
-      "@/*": ["./*"]
-    }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts"]
 }
